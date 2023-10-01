@@ -1,0 +1,353 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow:auto;
+}
+
+.global-nav{
+    background-color: #FBFBFDCC;
+    width: 1280px;
+    height: 44px;
+    margin: 0px 247.6px;
+    padding: 0px 22px;
+    margin-top: 10px;
+}
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+li{
+    list-style-type: none;
+}
+
+li a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.896);
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    font-family: Text,Helvetica,Arial,sans-serif;
+    line-height: 1;
+    position: fixed;
+}
+
+.border{
+    border-bottom: 1px solid #1d1d1d2d;
+}
+
+span{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+span p{
+    color: #1D1D1F;
+    font-size: 14px;
+}
+
+span a{
+    text-decoration: none;
+    color: #2997FF;
+}
+
+.unit-wrapper{
+    background-image: url(/apple/asstes/iphone15.jpg);
+    background-position: center;
+    height: 580px;
+}
+
+.text{
+    margin-left: 5%;
+    padding-top: 3%;
+    text-align: center;
+}
+
+h1{
+    color: white;
+    font-size: 50px;
+}
+
+h3{
+    color: white;
+}
+
+.unit-wrapper a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #2997FF;
+}
+
+.lm{
+    padding-right: 65px;
+}
+
+.unit-wrapper1{
+    background-image: url(/apple/asstes/iphone152.jpg);
+    background-position: center;
+    height: 580px;
+}
+
+.text1{
+    margin-left: 5%;
+    padding-top: 5%;
+    text-align: center;
+}
+
+.text1 h1{
+    font-size: 50px;
+    color: black;
+}
+
+.text1 h3{
+    color: black;
+}
+
+.unit-wrapper1 a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #2997FF;
+}
+
+.lm1{
+    padding-right: 65px;
+}
+
+.unit-wrapper2{
+    background-image: url(/apple/asstes/watch.jpg);
+    background-position: center;
+    height: 580px;
+}
+
+.text2{
+    margin-left: 5%;
+    padding-top: 3%;
+    text-align: center;
+}
+
+.text2 h1{
+    color: white;
+    font-size: 50px;
+}
+
+.text2 h3{
+    color: white;
+}
+
+.unit-wrapper2 a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #2997FF;
+}
+
+.lm2{
+    padding-right: 65px;
+}
+
+.fled{
+    display: flex;
+}
+
+.unit-wrapper3{
+    background-image: url(/apple/asstes/leftw.jpg);
+    background-position: center;
+    width: 50%;
+    height: 580px;
+}
+
+.text3{
+    margin-left: 5%;
+    padding-top: 3%;
+    text-align: center;
+}
+
+.text3 h2{
+    color: black;
+    font-size: 50px;
+}
+
+.text3 p{
+    color: black;
+    font-size: 25px;
+}
+
+.unit-wrapper3 a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #2997FF;
+}
+
+.lm3{
+    padding-right: 65px;
+}
+
+.unit-wrapper4{
+    background-image: url(/apple/asstes/rightw.jpg);
+    background-position: center;
+    width: 50%;
+    height: 580px;
+}
+
+.text4{
+    margin-left: 5%;
+    padding-top: 3%;
+    text-align: center;
+}
+
+.text4 h2{
+    color: black;
+    font-size: 50px;
+}
+
+.text4 p{
+    color: black;
+    font-size: 25px;
+}
+
+.unit-wrapper4 a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #2997FF;
+}
+
+.lm4{
+    padding-right: 65px;
+}
+
+.fled1{
+    display: flex;
+}
+
+.unit-wrapper5{
+    background-image: url(/apple/asstes/shop.jpg);
+    background-position: center;
+    width: 50%;
+    height: 580px;
+}
+
+.text5{
+    margin-left: 5%;
+    padding-top: 3%;
+    text-align: center;
+}
+
+.text5 h2{
+    color: black;
+    font-size: 50px;
+}
+
+.text5 p{
+    color: black;
+    font-size: 25px;
+}
+
+.unit-wrapper5 a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #2997FF;
+}
+
+.unit-wrapper6{
+    background-image: url(/apple/asstes/promo.jpg);
+    background-position: center;
+    width: 50%;
+    height: 580px;
+}
+
+.text6{
+    margin-left: 5%;
+    padding-top: 3%;
+    text-align: center;
+}
+
+.text6 h2{
+    color: black;
+    font-size: 50px;
+}
+
+.text6 p{
+    color: black;
+    font-size: 25px;
+}
+
+.unit-wrapper6 a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #2997FF;
+}
+
+.fled2{
+    display: flex;
+}
+
+.unit-wrapper7{
+    background-image: url(/apple/asstes/airpods.jpg);
+    background-position: center;
+    width: 50%;
+    height: 580px;
+}
+
+.text7{
+    margin-left: 5%;
+    padding-top: 3%;
+    text-align: center;
+}
+
+.text7 h2{
+    color: white;
+    font-size: 50px;
+}
+
+.text7 p{
+    color: white;
+    font-size: 25px;
+}
+
+.unit-wrapper7 a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #2997FF;
+}
+
+.lm7{
+    padding-right: 65px;
+}
+
+.unit-wrapper8{
+    background-image: url(/apple/asstes/card1.jpg);
+    background-position: center;
+    width: 50%;
+    height: 580px;
+}
+
+.text8{
+    margin-left: 5%;
+    padding-top: 3%;
+    text-align: center;
+}
+
+.text8 h2{
+    color: black;
+    font-size: 50px;
+}
+
+.text8 p{
+    color: black;
+    font-size: 25px;
+}
+
+.unit-wrapper8 a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #2997FF;
+}
+
+.lm8{
+    padding-right: 65px;
+}
